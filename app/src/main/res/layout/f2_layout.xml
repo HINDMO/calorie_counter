@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowRadius="5"
+            android:text="@string/physical_activity"
+            android:textColor="@color/colorgreengrey"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="10dp"
+            android:text="never"
+            android:textColor="@color/colorblk"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="10dp"
+            android:text="just walking sometimes"
+            android:textColor="@color/colorblk"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="10dp"
+            android:text=" 1-2 a week"
+            android:textColor="@color/colorblk"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="10dp"
+            android:text=" 3-5 a week"
+            android:textColor="@color/colorblk"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="10dp"
+            android:text=" EveryDay"
+            android:textColor="@color/colorblk"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</android.widget.RelativeLayout>
